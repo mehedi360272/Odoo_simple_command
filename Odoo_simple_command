@@ -17,3 +17,8 @@ Step 2.
              Port: 8069
 >>> Run the Upgrade Command: Use the following command to upgrade the desired module. Replace <module_name> with the name of your module.
        bash code: odoo -c /path/to/odoo.conf -u <module_name>
+>>> How to make multiple folder in one command?
+       mkdir -p folder1/folder2/folder3
+>>> How to make a file in multiple folder?
+       touch static/src/js/custom.js
+
