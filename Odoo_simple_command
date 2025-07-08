@@ -21,4 +21,6 @@ Step 2.
        mkdir -p folder1/folder2/folder3
 >>> How to make a file in multiple folder?
        touch static/src/js/custom.js
+>>> Count lone of code with CLOC
+python odoo-bin cloc -p adons_path/module_name/
 
