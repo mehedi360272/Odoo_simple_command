@@ -22,5 +22,11 @@ Step 2.
 >>> How to make a file in multiple folder?
        touch static/src/js/custom.js
 >>> Count lone of code with CLOC
-python odoo-bin cloc -p adons_path/module_name/
+       python odoo-bin cloc -p adons_path/module_name/
+
+>>> Database query using ubuntu terminal
+       open postgresql --> sudo -u postgres psql
+       list of database --> \l
+       select database --> \c database_name
+       back ---> q
 
