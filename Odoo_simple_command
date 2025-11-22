@@ -29,4 +29,6 @@ Step 2.
        list of database --> \l
        select database --> \c database_name
        back ---> q
+>>> how to move one window to other monitor?
+       Windows + Shift + Left/Right Arrow
 
