@@ -1,26 +1,29 @@
 >>> How to Create a Module in Odoo?
        To create the structure of a module, you can use the scaffold command. This will automatically create an empty structure of a module.
-
        command: python odoo-bin scaffold module_name custom_addons_location
 
 >>> How to access Odoo localhost from another computer on same network?
-step 1. 
-       - Go to CMD Command Prompt
-       - write ipconfig
-       - Copy IPv4 Address
-Step 2. 
-       - Go to your another computer web browser
-       - Paste url IPv4 Address with port number
-       example: 192.168.0.1:8069
-       where,
-             IPv4 Address: 192.168.0.1
-             Port: 8069
+       step 1. 
+              - Go to CMD Command Prompt
+              - write ipconfig
+              - Copy IPv4 Address
+       Step 2. 
+              - Go to your another computer web browser
+              - Paste url IPv4 Address with port number
+              example: 192.168.0.1:8069
+              where,
+                    IPv4 Address: 192.168.0.1
+                    Port: 8069
+
 >>> Run the Upgrade Command: Use the following command to upgrade the desired module. Replace <module_name> with the name of your module.
        bash code: odoo -c /path/to/odoo.conf -u <module_name>
+
 >>> How to make multiple folder in one command?
        mkdir -p folder1/folder2/folder3
+
 >>> How to make a file in multiple folder?
        touch static/src/js/custom.js
+
 >>> Count lone of code with CLOC
        python odoo-bin cloc -p adons_path/module_name/
 
@@ -29,6 +32,7 @@ Step 2.
        list of database --> \l
        select database --> \c database_name
        back ---> q
+
 >>> how to move one window to other monitor?
        Windows + Shift + Left/Right Arrow
 
