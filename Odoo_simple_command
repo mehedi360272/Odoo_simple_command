@@ -30,6 +30,7 @@
 >>> Database query using ubuntu terminal
        open postgresql --> sudo -u postgres psql
        list of database --> \l
+       Delete database --> DROP DATABASE "Database_Name";
        select database --> \c database_name
        back ---> q
 
