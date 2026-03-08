@@ -36,4 +36,10 @@
 
 >>> how to move one window to other monitor?
        Windows + Shift + Left/Right Arrow
+>>> Attack
+       sudo apt install apache2-utils
+
+       ab -n 1000 -c 50 http://192.168.100.213:8018/
+       
+       while true; do   ab -n 50000 -c 500 http://url/; done
 
